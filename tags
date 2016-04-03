@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BuildTree	decision_tree.py	/^def BuildTree(S, A, depth):$/;"	f
+Classification	decision_tree.py	/^def Classification(S):$/;"	f
+ClassificationError	decision_tree.py	/^def ClassificationError(proportion):$/;"	f
+Classify	adaboost.py	/^def Classify(F, A, data, numRounds):$/;"	f
+Classify	decision_tree.py	/^def Classify(T, node):$/;"	f
+ComputeError	adaboost.py	/^def ComputeError(F, A, numRounds, data):$/;"	f
+ComputeError	decision_tree.py	/^def ComputeError(data, root):$/;"	f
+Entropy	decision_tree.py	/^def Entropy(proportion):$/;"	f
+GetSplits	decision_tree.py	/^def GetSplits(S, A):$/;"	f
+GiniIndex	decision_tree.py	/^def GiniIndex(proportion):$/;"	f
+Leaf	decision_tree.py	/^class Leaf(object):$/;"	c
+N_ATTR	decision_tree.py	/^N_ATTR = 57 #number of attributes$/;"	v
+TreeNode	decision_tree.py	/^class TreeNode(object):$/;"	c
+UncertaintyReduction	decision_tree.py	/^def UncertaintyReduction(S, S1, S2):$/;"	f
+__init__	decision_tree.py	/^    def __init__(self, attrIndex, threshold):$/;"	m	class:TreeNode
+__init__	decision_tree.py	/^    def __init__(self, classification):$/;"	m	class:Leaf
+_recurse_train	adaboost.py	/^def _recurse_train(D, A, F, trainData, numRound):$/;"	f
+error	adaboost.py	/^    error = ComputeError(F, A, numRounds, trainData)$/;"	v
+error	decision_tree.py	/^    error = ComputeError(train_data, root)$/;"	v
+isPure	decision_tree.py	/^def isPure(S):$/;"	f
+numRounds	adaboost.py	/^    numRounds = 1$/;"	v
+root	decision_tree.py	/^    root = BuildTree(train_data, [], 6)$/;"	v
+testData	adaboost.py	/^    testData = scio.loadmat('spam.mat')['test_spam']$/;"	v
+test_data	decision_tree.py	/^    test_data = scio.loadmat('spam.mat')['test_spam']$/;"	v
+trainData	adaboost.py	/^    trainData = scio.loadmat('spam.mat')['train_spam']$/;"	v
+train_adaboost	adaboost.py	/^def train_adaboost(trainData, numRounds):$/;"	f
+train_data	decision_tree.py	/^    train_data = scio.loadmat('spam.mat')['train_spam']$/;"	v
